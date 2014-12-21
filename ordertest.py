@@ -86,6 +86,9 @@ class OrderTest(unittest.TestCase):
 
 	def testA_newOrder(self):
 		testOrder=Order("mushrooms",10)
+		print repr(testOrder)
+
+		self.assertEqual(testName,"mushrooms","Invalid item name")
 
 
 

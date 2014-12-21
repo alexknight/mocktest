@@ -38,3 +38,4 @@ class Order(object):
 if __name__=='__main__':
 	testOrder=Order("mushrooms",10)
 	print repr(testOrder)
+	self.assertEqual(testName,"mushrooms","Invalid item name")
